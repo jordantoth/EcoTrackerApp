@@ -1,0 +1,3 @@
+window.RecyclingResultView = ResultView.extend({
+
+})

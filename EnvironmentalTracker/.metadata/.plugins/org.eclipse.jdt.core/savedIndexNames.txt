@@ -1,0 +1,8 @@
+INDEX VERSION 1.126+C:\Users\Jordan\Documents\Class\2012 Fall\CS 5150\EnvironmentalTracker\.metadata\.plugins\org.eclipse.jdt.core
+1373809292.index
+221194422.index
+1822458058.index
+383545601.index
+3352491446.index
+936856909.index
+2455986472.index

@@ -1,0 +1,3 @@
+window.TrashResultView = ResultView.extend({
+
+})

@@ -1,0 +1,197 @@
+/*TODO (jeran): pixels :(*/
+
+html {
+    background: url('../img/sky.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0em;
+    font-family: whatup;
+    font-size: 1em;
+}
+
+#flower {
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 45%;
+    height:30%;
+    width:100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#flower.level6 {
+    background-image: url('../img/flower_6.png');
+}
+
+.navbar-fixed-top {
+    background-image: url('../img/top_bar_background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 2.6em;
+}
+
+.navbar-fixed-bottom {
+    position: fixed;
+    bottom: 0em;
+    background-image: url('../img/bottom_bar_background.png');
+    background-size: cover;
+}
+
+#header-history {
+    position: absolute;
+    height: 2.4em;
+    margin-top: .1em;
+    margin-left: .1em;
+}
+
+.navbar .brand {
+    text-decoration: none;
+    font-size: 1.24em;
+    color:#ffffff;
+    text-shadow: 0.1em 0.1em #333;
+    padding-top: 8px;
+    display:block;
+}
+
+.bottom-button {
+    float:left;
+    width:33%;
+}
+
+.tips {
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.input-radio {
+    width: 68px;
+    height: 30px;
+    float:left;
+}
+
+.input-radio.left {
+    border: none;
+    background: url('../img/left_radio_button.png');
+    background-size: cover;
+}
+
+.input-radio.middle {
+    border: none;
+    background: url('../img/middle_radio_button.png');
+    background-size: cover;
+}
+
+.input-radio.right {
+    border: none;
+    background: url('../img/right_radio_button.png');
+    background-size: cover;
+}
+
+.input-radio.left.selected {
+    border: none;
+    background: url('../img/left_radio_button_selected.png');
+    background-size: cover;
+}
+
+.input-radio.middle.selected {
+    border: none;
+    background: url('../img/middle_radio_button_selected.png');
+    background-size: cover;
+}
+
+.input-radio.right.selected {
+    border: none;
+    background: url('../img/right_radio_button_selected.png');
+    background-size: cover;
+}
+
+.input-radio-group {
+    width: 272px;
+    margin: auto;
+}
+
+.input-radio-group-small {
+    width: 136px;
+    margin: auto;
+    padding:2%;
+}
+
+.input-add {
+    border: none;
+    background: url('../img/plus.png');
+    background-size: cover;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+}
+
+.input-remove {
+    border: none;
+    background: url('../img/minus.png');
+    background-size: cover;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+}
+
+.input-field {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.control-group {
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+
+    background: url('../img/list_button.png') no-repeat center;
+    background-size: contain;
+
+    padding: 4px;
+    padding-bottom: 0px;
+    
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    margin-bottom:2%;
+    width: 80%;
+    display: block;
+}
+
+A:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+A:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+A:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+.tips ul {
+    list-style-type: none;
+    background: url('../img/white.png');
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@font-face {
+    font-family: whatup;
+    src: url('ArbutusSlab-Regular.ttf');
+}

@@ -1,0 +1,16 @@
+<div class="row" id = "input-power-view">
+    <div id="input-power-tips" class="tips"></div>
+	
+	<div class="input-field" >
+        <input type="number" id="power" min="0" step="10" value="0"/><span> kWh</span>
+        <div class="input-radio-group-small">
+            <input type="button" id="current-month-button" class="input-radio left<%= monthIndex ? "" : " selected" %>" value="Current"/>
+            <input type="button" id="previous-month-button" class="input-radio right<%= monthIndex ? " selected" : "" %>" value="Previous"/>
+        </div>
+        <br/>
+        <br/>
+        <input type="button" id="log" value="Log"/>
+        <div id="input-power-total">Power reader: <%= items[itemIndex] %></div>
+        <div id="input-power-prev-month-total">Power reader previous month: <%= itemsLastMonth[itemIndex] %></div>
+	</div>
+</div>

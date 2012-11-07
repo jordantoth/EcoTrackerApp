@@ -1,0 +1,13 @@
+<div class="row" id = "input-shower-view">
+    <div id="input-shower-tips" class="tips"></div>
+	<div>
+		<input type="button" id="input-shower-start" value="Start"/>
+		<input type="button" id="input-shower-stop" value="Stop"/>
+		<input type="button" id="input-shower-reset" value="Reset"/>
+		<input type="button" id="input-shower-log" value="Log"/>
+	</div>
+	<div>
+		<span id="input-shower-watchdisplay">00:00:00</span>
+		<span id="input-shower-averageTime"><%= (items[1]==0) ? items[0] : items[0]/items[1] %></span>
+	</div>
+</div>

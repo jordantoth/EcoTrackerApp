@@ -1,0 +1,3 @@
+window.PowerResultView = ResultView.extend({
+
+})

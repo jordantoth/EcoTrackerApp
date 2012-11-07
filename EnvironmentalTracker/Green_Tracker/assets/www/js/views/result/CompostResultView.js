@@ -1,0 +1,3 @@
+window.CompostResultView = ResultView.extend({
+
+})

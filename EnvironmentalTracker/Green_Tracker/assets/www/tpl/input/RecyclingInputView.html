@@ -1,0 +1,11 @@
+<div class="row" id = "input-recycling-view">
+    <div id="input-recycling-tips" class="tips"></div>
+	
+	<div class="input-radio-group"></div>
+
+	<div class="input-recycling-field input-field">
+		<label id="input-recycling-label" class="input-label">Product: <%= names[itemIndex] %></label>
+		<div id="input-recycling-total">This month: <%= items[itemIndex] %> , (<%= itemsLocal[itemIndex] >= 0 ? "+" : "" %><%= itemsLocal[itemIndex] %>)</div>
+		<div class="input-add-remove"></div>
+	</div>
+</div>
